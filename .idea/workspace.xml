@@ -2,28 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b64112c-b720-49d7-892e-20bfb4863a6f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cafe-menu.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cafe-rating.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cafe-report.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/courier-profile.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/authorization-styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/menu-styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/orders-new.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/requests-style.css" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dishes.html" afterPath="$PROJECT_DIR$/authorization.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/orders.html" afterPath="$PROJECT_DIR$/orders-processing.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/like.png" afterPath="$PROJECT_DIR$/img/like.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/couriers-blocked.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client-profile.html" afterPath="$PROJECT_DIR$/client-history.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive.html" afterPath="$PROJECT_DIR$/archive.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/authorization.html" afterPath="$PROJECT_DIR$/authorization.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cafe-menu.html" afterPath="$PROJECT_DIR$/cafe-menu.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cafe-rating.html" afterPath="$PROJECT_DIR$/cafe-rating.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cafe.html" afterPath="$PROJECT_DIR$/cafe.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clients.html" afterPath="$PROJECT_DIR$/clients.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/couriers.html" afterPath="$PROJECT_DIR$/couriers.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/archive-styles.css" afterPath="$PROJECT_DIR$/css/archive-styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/cafe-styles.css" afterPath="$PROJECT_DIR$/css/cafe-styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/orders-styles.css" afterPath="$PROJECT_DIR$/css/orders-styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reports.html" afterPath="$PROJECT_DIR$/reports.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requests.html" afterPath="$PROJECT_DIR$/requests.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/menu-styles.css" afterPath="$PROJECT_DIR$/css/menu-styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/requests-styles.css" afterPath="$PROJECT_DIR$/css/requests-styles.css" />
     </list>
     <ignored path="echpochmak.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,22 +33,42 @@
     <favorites_list name="echpochmak" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="authorization.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/authorization.html">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="couriers-blocked.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/couriers-blocked.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.2818671">
-              <caret line="42" column="7" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
+            <state vertical-scroll-proportion="-14.923077">
+              <caret line="87" column="12" selection-start-line="87" selection-start-column="12" selection-end-line="87" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="authorization-styles.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/authorization-styles.css">
+      <file leaf-file-name="clients.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/clients.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.576923">
-              <caret line="84" column="20" selection-start-line="84" selection-start-column="20" selection-end-line="84" selection-end-column="20" />
+            <state vertical-scroll-proportion="-17.538462">
+              <caret line="131" column="7" selection-start-line="131" selection-start-column="7" selection-end-line="131" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cafe.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cafe.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6702509">
+              <caret line="37" column="42" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="client-history.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client-history.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.036364">
+              <caret line="26" column="2" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -69,8 +79,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -81,7 +91,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/css/mail.css" />
-        <option value="$PROJECT_DIR$/css/cafe-styles.css" />
         <option value="$PROJECT_DIR$/css/courier-style.css" />
         <option value="$PROJECT_DIR$/css/courier-styles.css" />
         <option value="$PROJECT_DIR$/courier.html" />
@@ -96,26 +105,29 @@
         <option value="$PROJECT_DIR$/archive.html" />
         <option value="$PROJECT_DIR$/cafe-rating.html" />
         <option value="$PROJECT_DIR$/client-profile.html" />
-        <option value="$PROJECT_DIR$/clients.html" />
         <option value="$PROJECT_DIR$/courier-profile.html" />
-        <option value="$PROJECT_DIR$/couriers.html" />
         <option value="$PROJECT_DIR$/reports.html" />
         <option value="$PROJECT_DIR$/requests.html" />
         <option value="$PROJECT_DIR$/orders-processing.html" />
         <option value="$PROJECT_DIR$/css/archive-styles.css" />
-        <option value="$PROJECT_DIR$/css/requests-styles.css" />
         <option value="$PROJECT_DIR$/dishes.html" />
         <option value="$PROJECT_DIR$/cafe-dishes.html" />
         <option value="$PROJECT_DIR$/css/menu-styles.html" />
-        <option value="$PROJECT_DIR$/cafe.html" />
-        <option value="$PROJECT_DIR$/css/orders-styles.css" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/orders-new.html" />
-        <option value="$PROJECT_DIR$/cafe-menu.html" />
-        <option value="$PROJECT_DIR$/css/menu-styles.css" />
         <option value="$PROJECT_DIR$/css/authorization.css" />
         <option value="$PROJECT_DIR$/css/authorization-styles.css" />
         <option value="$PROJECT_DIR$/authorization.html" />
+        <option value="$PROJECT_DIR$/cafe-menu.html" />
+        <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/css/menu-styles.css" />
+        <option value="$PROJECT_DIR$/css/requests-styles.css" />
+        <option value="$PROJECT_DIR$/css/orders-styles.css" />
+        <option value="$PROJECT_DIR$/cafe.html" />
+        <option value="$PROJECT_DIR$/css/cafe-styles.css" />
+        <option value="$PROJECT_DIR$/client-history.html" />
+        <option value="$PROJECT_DIR$/couriers.html" />
+        <option value="$PROJECT_DIR$/couriers-blocked.html" />
+        <option value="$PROJECT_DIR$/clients.html" />
       </list>
     </option>
   </component>
@@ -155,6 +167,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -189,8 +203,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -266,7 +278,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16294643" sideWeight="0.4942717" order="0" side_tool="false" content_ui="combo" />
@@ -365,15 +377,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.7419355">
           <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/cafe-styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13105924">
-          <caret line="16" column="15" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -397,23 +400,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.6153846">
           <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clients.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2">
-          <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/courier-profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2">
-          <caret line="40" column="35" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -421,7 +407,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -429,7 +414,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.418182">
           <caret line="48" column="10" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -445,47 +429,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.576923">
           <caret line="103" column="18" selection-start-line="99" selection-start-column="12" selection-end-line="103" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requests.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.423077">
-          <caret line="65" column="18" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/requests-styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.1538461">
-          <caret line="78" column="15" selection-start-line="78" selection-start-column="15" selection-end-line="78" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client-profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.115385">
-          <caret line="57" column="12" selection-start-line="0" selection-start-column="0" selection-end-line="159" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/couriers.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.230769">
-          <caret line="64" column="29" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cafe.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.4344704">
-          <caret line="83" column="34" selection-start-line="83" selection-start-column="34" selection-end-line="83" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -493,15 +436,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="59" column="29" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/orders-styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.518851">
-          <caret line="127" column="15" selection-start-line="127" selection-start-column="15" selection-end-line="127" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -513,42 +447,122 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cafe-menu.html">
+    <entry file="file://$PROJECT_DIR$/authorization.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3560606">
-          <caret line="127" column="71" selection-start-line="127" selection-start-column="20" selection-end-line="127" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/menu-styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.74242425">
-          <caret line="252" column="22" selection-start-line="252" selection-start-column="22" selection-end-line="252" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="45.76923">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="6" selection-end-column="1" />
+        <state vertical-scroll-proportion="-14.923077">
+          <caret line="37" column="41" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/authorization-styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.576923">
+        <state vertical-scroll-proportion="0.0">
           <caret line="84" column="20" selection-start-line="84" selection-start-column="20" selection-end-line="84" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/authorization.html">
+    <entry file="file://$PROJECT_DIR$/css/menu-styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2818671">
-          <caret line="42" column="7" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.42911154">
+          <caret line="134" column="19" selection-start-line="134" selection-start-column="19" selection-end-line="134" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cafe-menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.51792115">
+          <caret line="17" column="68" selection-start-line="17" selection-start-column="68" selection-end-line="17" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6540643">
+          <caret line="193" column="20" selection-start-line="193" selection-start-column="20" selection-end-line="193" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/orders-styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.4363637">
+          <caret line="173" column="21" selection-start-line="173" selection-start-column="21" selection-end-line="173" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requests.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.192308">
+          <caret line="82" column="20" selection-start-line="82" selection-start-column="20" selection-end-line="82" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/requests-styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.8181818">
+          <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/cafe-styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.2909093">
+          <caret line="50" column="23" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/courier-profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3327032">
+          <caret line="68" column="22" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/couriers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.6451613">
+          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client-history.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.036364">
+          <caret line="26" column="2" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/couriers-blocked.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.923077">
+          <caret line="87" column="12" selection-start-line="87" selection-start-column="12" selection-end-line="87" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.538462">
+          <caret line="131" column="7" selection-start-line="131" selection-start-column="7" selection-end-line="131" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cafe.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6702509">
+          <caret line="37" column="42" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
           <folding />
         </state>
       </provider>

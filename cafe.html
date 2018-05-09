@@ -6,8 +6,6 @@
     <script data-require="jquery@1.10.0" data-semver="1.10.0"
             src="https://code.jquery.com/jquery-1.10.0.min.js"></script>
 
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
           integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -52,6 +50,10 @@
             <input type="submit" value="Искать" class="search-button">
             <label><input type="text" name="search" placeholder="Поиск..."></label>
         </form>
+        <div class="add-item" data-toggle="modal" data-target="#add-item">
+            <img src="img/adding.png">
+            <span>Добавить новое кафе</span>
+        </div>
     </div>
 
     <div class="container">
@@ -89,5 +91,25 @@
         </a>
     </div>
 </section>
+
+<!-- Modal -->
+<div class="modal fade" id="add-item" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <form class="dish-description">
+                    <label>Название кафе</label>
+                    <input type="text">
+                    <label>Описание</label>
+                    <input type="text">
+                    <label>Количество блюд</label>
+                    <input class="price">
+                    <input class="load" type="file" name="photo" multiple accept="image/*,image/jpeg">
+                    <button type="button">Добавить кафе</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>
