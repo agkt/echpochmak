@@ -36,7 +36,7 @@
     <div class="navigation">
         <ul>
             <li><a href="orders-new.html">Заказы</a></li>
-            <li><a href="couriers.html">Курьеры</a></li>
+            <li><a href="couriers-free.html">Курьеры</a></li>
             <li><a href="./reports.html">Отчеты</a></li>
             <li><a href="./archive.html">Архив</a></li>
             <li><a href="./clients.html">Пользователи</a></li>
@@ -104,8 +104,11 @@
                     <input type="text">
                     <label>Количество блюд</label>
                     <input class="price">
-                    <input class="load" type="file" name="photo" multiple accept="image/*,image/jpeg">
-                    <button type="button">Добавить кафе</button>
+                    <div class="load">
+                        <button id="load">Загрузить фото</button>
+                        <input type="file" name="photo" multiple accept="image/*,image/jpeg">
+                    </div>
+                    <button type="button" id="add" data-dismiss="modal">Добавить кафе</button>
                 </form>
             </div>
         </div>

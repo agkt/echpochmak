@@ -2,11 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Отчеты</title>
+    <title>Отчёты</title>
     <script data-require="jquery@1.10.0" data-semver="1.10.0"
             src="https://code.jquery.com/jquery-1.10.0.min.js"></script>
-
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
@@ -22,7 +20,7 @@
             crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/orders-styles.css">
+    <link rel="stylesheet" href="css/cafe-styles.css">
 </head>
 <body>
 <section class="header">
@@ -38,7 +36,7 @@
     <div class="navigation">
         <ul>
             <li><a href="orders-new.html">Заказы</a></li>
-            <li><a href="couriers.html">Курьеры</a></li>
+            <li><a href="couriers-free.html">Курьеры</a></li>
             <li><a href="./reports.html">Отчеты</a></li>
             <li><a href="./archive.html">Архив</a></li>
             <li><a href="./clients.html">Пользователи</a></li>
@@ -48,10 +46,6 @@
 </section>
 <section class="main">
     <div class="clearfix">
-        <ul>
-            <li><a href="#">Новые 4</a></li>
-            <li><a href="#">В обработке 4</a></li>
-        </ul>
         <form name="search" class="search">
             <input type="submit" value="Искать" class="search-button">
             <label><input type="text" name="search" placeholder="Поиск..."></label>
@@ -59,31 +53,67 @@
     </div>
 
     <div class="container">
-        <div class="col-md-3">
-            <div class="cafe-picture"><img src="img/cafe-picture.png"></div>
-            <div class="description">
-                <h3 class="cafe-name">Макдоналдс</h3>
-                <span class="dishes-type">Фаст-фуд, напитки</span>
-                <span class="dishes-number">20 блюд</span>
-            </div>
-        </div>
-        <div class="col-md-3">
+        <a class="col-md-3" href="./reports-cafe.html">
             <div class="cafe-picture"><img src="img/cafe-picture.png"></div>
             <div class="description">
                 <h3 class="cafe-name">Ханума</h3>
                 <span class="dishes-type">Кавказская, ланчи, халяль</span>
                 <span class="dishes-number">12 блюд</span>
             </div>
-        </div>
-        <div class="col-md-3">
+        </a>
+        <a class="col-md-3" href="./reports-cafe.html">
+            <div class="cafe-picture"><img src="img/cafe-picture.png"></div>
+            <div class="description">
+                <h3 class="cafe-name">Макдоналдс</h3>
+                <span class="dishes-type">Фаст-фуд, напитки</span>
+                <span class="dishes-number">20 блюд</span>
+            </div>
+        </a>
+        <a class="col-md-3" href="./reports-cafe.html">
+            <div class="cafe-picture"><img src="img/cafe-picture.png"></div>
+            <div class="description">
+                <h3 class="cafe-name">Макдоналдс</h3>
+                <span class="dishes-type">Фаст-фуд, напитки</span>
+                <span class="dishes-number">20 блюд</span>
+            </div>
+        </a>
+        <a class="col-md-3" href="./reports-cafe.html">
             <div class="cafe-picture"><img src="img/cafe-picture.png"></div>
             <div class="description">
                 <h3 class="cafe-name">Сушилар</h3>
                 <span class="dishes-type">Японская кухня, пицца</span>
                 <span class="dishes-number">15 блюд</span>
             </div>
-        </div>
+        </a>
+        <a class="col-md-3" href="./reports-cafe.html">
+            <div class="cafe-picture"><img src="img/cafe-picture.png"></div>
+            <div class="description">
+                <h3 class="cafe-name">Макдоналдс</h3>
+                <span class="dishes-type">Фаст-фуд, напитки</span>
+                <span class="dishes-number">20 блюд</span>
+            </div>
+        </a>
     </div>
 </section>
+
+<!-- Modal -->
+<div class="modal fade" id="add-item" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <form class="dish-description">
+                    <label>Название кафе</label>
+                    <input type="text">
+                    <label>Описание</label>
+                    <input type="text">
+                    <label>Количество блюд</label>
+                    <input class="price">
+                    <input class="load" type="file" name="photo" multiple accept="image/*,image/jpeg">
+                    <button type="button">Добавить кафе</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>

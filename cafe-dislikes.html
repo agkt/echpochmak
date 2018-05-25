@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Заблокированные курьеры</title>
+    <title>Кто поставил дизлайк</title>
     <script data-require="jquery@1.10.0" data-semver="1.10.0"
             src="https://code.jquery.com/jquery-1.10.0.min.js"></script>
 
@@ -23,7 +23,6 @@
 
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/users-styles.css">
-    <link rel="stylesheet" href="css/client-profile-styles.css">
 </head>
 <body>
 <section class="header">
@@ -48,18 +47,8 @@
     </div>
 </section>
 <section class="main">
-    <div class="user-history clearfix">
-        <a href="./clients.html" class="return"><img src="img/back.png"></a>
-        <img src="img/user.png" class="user-picture">
-        <span>Имя Фамилия</span>
-    </div>
     <div class="clearfix">
-        <ul>
-            <li><a href="./client-history.html">История</a></li>
-            <li><a href="./client-likes.html">Лайки</a></li>
-            <li><a href="./client-dislikes.html">Дизлайки</a></li>
-            <li><a href="./couriers-blocked.html">Заблокированные курьеры</a></li>
-        </ul>
+        <a href="./cafe-menu.html" class="return"><img src="img/back.png"></a>
         <form name="search" class="search">
             <input type="submit" value="Искать" class="search-button">
             <label><input type="text" name="search" placeholder="Поиск..."></label>
@@ -67,6 +56,25 @@
     </div>
 
     <div class="container">
+        <a class="col-md-1" href="courier-profile.html">
+            <div class="courier-picture">
+                <img src="img/user.png">
+            </div>
+
+            <div class="courier-name">
+                <span>Константин Константинопольский</span>
+                <img src="img/page-1.png">
+            </div>
+        </a>
+        <a class="col-md-1" href="courier-profile.html">
+            <div class="courier-picture">
+                <img src="img/user.png">
+            </div>
+            <div class="courier-name">
+                <span>Константин Константинопольский</span>
+                <img src="img/page-1.png">
+            </div>
+        </a>
         <a class="col-md-1" href="courier-profile.html">
             <div class="courier-picture">
                 <img src="img/user.png">

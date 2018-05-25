@@ -133,18 +133,21 @@
     letter-spacing: normal;
     text-align: left;
     color: rgba(0, 0, 0, 0.87);
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 10px 20px;
 }
 
 .main li:active {
     background-color: #000000;
 }
-
+.main li:hover {
+    background-color: #000000;
+}
 .main li:active a {
     color: rgba(254, 254, 254, 0.87);
 }
-
+.main li:hover a {
+    color: rgba(254, 254, 254, 0.87);
+}
 .main .search {
     float: right;
 }
@@ -198,7 +201,7 @@
     margin: 0;
 }
 
-.main .container .col-md-3 .cafe-picture{
+.main .container .col-md-3 .cafe-picture {
     background: black;
     z-index: -111;
     border-radius: 5px;
@@ -210,6 +213,7 @@
     opacity: 0.6;
     border-radius: 5px;
 }
+
 .main .container .description {
     position: absolute;
     bottom: 10%;

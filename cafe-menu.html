@@ -36,7 +36,7 @@
     <div class="navigation">
         <ul>
             <li><a href="orders-new.html">Заказы</a></li>
-            <li><a href="couriers.html">Курьеры</a></li>
+            <li><a href="couriers-free.html">Курьеры</a></li>
             <li><a href="./reports.html">Отчеты</a></li>
             <li><a href="./archive.html">Архив</a></li>
             <li><a href="./clients.html">Пользователи</a></li>
@@ -63,16 +63,21 @@
 
     <div class="container">
         <div class="col-md-3">
-            <div class="cafe-picture"><img src="img/cafe-picture.png" data-toggle="modal" data-target="#edit-item"></div>
+            <div class="cafe-picture"><img src="img/cafe-picture.png" data-toggle="modal" data-target="#edit-item">
+            </div>
             <div class="description" data-toggle="modal" data-target="#edit-item">
                 <h3 class="dish-name">Картофельное пюре</h3>
                 <span class="dish-description">Ароматный картофель с молоком и маслом</span>
                 <span class="dish-price">60₽</span>
             </div>
             <div>
-                <img src="img/like.png">
+                <a href="./cafe-likes.html">
+                    <img src="img/like.png">
+                </a>
                 <span>12</span>
-                <img src="img/dislike.png">
+                <a href="./cafe-dislikes.html">
+                    <img src="img/dislike.png">
+                </a>
                 <span>4</span>
                 <span class="delete-item" data-toggle="modal" data-target="#delete-item">Удалить</span>
             </div>
@@ -80,16 +85,21 @@
 
 
         <div class="col-md-3">
-            <div class="cafe-picture"><img src="img/cafe-picture.png" data-toggle="modal" data-target="#edit-item"></div>
+            <div class="cafe-picture"><img src="img/cafe-picture.png" data-toggle="modal" data-target="#edit-item">
+            </div>
             <div class="description" data-toggle="modal" data-target="#edit-item">
                 <h3 class="dish-name">Котлета по-киевски</h3>
                 <span class="dish-description">Куриная котлета в панировке со сливочным маслом внутри</span>
                 <span class="dish-price">80₽</span>
             </div>
             <div>
-                <img src="img/like.png">
+                <a href="./cafe-likes.html">
+                    <img src="img/like.png">
+                </a>
                 <span>12</span>
-                <img src="img/dislike.png">
+                <a href="./cafe-dislikes.html">
+                    <img src="img/dislike.png">
+                </a>
                 <span>4</span>
                 <span class="delete-item" data-toggle="modal" data-target="#delete-item">Удалить</span>
             </div>
@@ -110,8 +120,12 @@
                     <input type="text">
                     <label>Цена</label>
                     <input class="price">
-                    <input class="load" type="file" name="photo" multiple accept="image/*,image/jpeg">
-                    <button type="button">Добавить блюдо</button>
+                    <div class="load">
+                        <button id="load">Загрузить фото</button>
+                        <input type="file" name="photo" multiple accept="image/*,image/jpeg">
+                    </div>
+
+                    <button type="button" id="add" data-dismiss="modal">Добавить блюдо</button>
                 </form>
             </div>
         </div>
@@ -129,8 +143,11 @@
                     <input type="text" placeholder="Ароматный картофель в сочетании с молоком и маслом">
                     <label>Цена</label>
                     <input class="price" type="number" placeholder="58 Р">
-                    <input class="load" type="file" name="photo" multiple accept="image/*,image/jpeg">
-                    <button type="button">Сохранить изменения</button>
+                    <div class="load">
+                        <button id="load">Сменить фото</button>
+                        <input type="file" name="photo" multiple accept="image/*,image/jpeg">
+                    </div>
+                    <button type="button" id="add" data-dismiss="modal">Сохранить изменения</button>
                 </form>
             </div>
         </div>
@@ -143,8 +160,8 @@
             <div class="modal-body">
                 <form class="clearfix">
                     <h3>Вы действительно хотите удалить данное блюдо?</h3>
-                    <button type="button" class="cancel">Отмена</button>
-                    <button type="button" class="delete">Удалить</button>
+                    <button type="button" class="cancel" data-dismiss="modal">Отмена</button>
+                    <button type="button" class="delete" data-dismiss="modal">Удалить</button>
                 </form>
             </div>
         </div>

@@ -1,6 +1,12 @@
 .main .container {
     margin-top: 0;
 }
+
+.main ul {
+    margin-top: 5px;
+    margin-left: 60px;
+}
+
 .main .cafe-picture {
     cursor: pointer;
 }
@@ -8,6 +14,7 @@
 .main .description {
     cursor: pointer;
 }
+
 .main .cafe-name span {
     margin-left: 25px;
     font-size: 18px;
@@ -33,6 +40,7 @@
 .main .search {
     margin-bottom: 30px;
 }
+
 .main .add-item {
     float: right;
     line-height: 40px;
@@ -65,6 +73,7 @@
     color: rgba(0, 0, 0, 0.54);
     margin-left: 5px;
 }
+
 .main .description .dish-name {
     width: 65%;
     margin-top: 0;
@@ -120,7 +129,6 @@
 
 .main .container .col-md-3 div:last-child img:first-child {
     padding-bottom: 5px;
-    padding-left: 5%;
 }
 
 .main .container .col-md-3 div:last-child span {
@@ -143,7 +151,66 @@
     opacity: 0.6;
 }
 
+.main .col-md-12 {
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.05);
+}
 
+.main .col-md-12:nth-child(odd) {
+    height: 40px;
+    background-color: #ffffff;
+}
+
+.main .col-md-12:first-child span {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.3);
+    margin-right: 15%;
+}
+
+.main .col-md-12 span {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.87);
+    margin-right: 20%;
+    line-height: 40px;
+}
+.main .col-md-12 .all {
+    margin-left: 1%;
+}
+.main .col-md-12 .name {
+    margin-left: 2%;
+}
+
+.main .col-md-12 .col {
+    margin-left: 3%;
+}
+
+.main .col-md-12 .price {
+    margin-left: 3%;
+}
+
+.main .col-md-12 span:last-child {
+    margin-right: 0;
+}
+
+.main .col-md-12 {
+    padding: 0;
+}
+.main .table {
+    margin-top: 40px;
+}
 
 /*Modal*/
 
@@ -152,7 +219,7 @@
 }
 
 .modal-body {
-    padding-left:80px ;
+    padding-left: 80px;
     padding-right: 80px;
     padding-top: 70px;
 }
@@ -169,7 +236,8 @@
     width: 300px;
     margin-bottom: 10px;
 }
-.modal-body .dish-description input{
+
+.modal-body .dish-description input {
     width: 300px;
     height: 50px;
     border-radius: 5px;
@@ -191,11 +259,36 @@
     width: 170px;
     height: 49px;
     border-radius: 5px;
+    float: right;
+    overflow: hidden;
+    position: relative;
+}
+.modal-body .dish-description #load {
+    width: 170px;
+    height: 49px;
+    border-radius: 5px;
     border: solid 1px rgba(0, 0, 0, 0.1);
     float: right;
+    overflow: hidden;
+    position: relative;
+    background: white;
+    padding: 0;
+    color: black;
+}
+.modal-body .dish-description .load input[type=file]{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transform: scale(20);
+    letter-spacing: 10em;     /* IE 9 fix */
+    -ms-transform: scale(20); /* IE 9 fix */
+    opacity: 0;
+    cursor: pointer
 }
 
-.modal-body button {
+.modal-body #add {
     width: 300px;
     height: 50px;
     border-radius: 5px;

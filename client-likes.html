@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Заблокированные курьеры</title>
+    <title>Профиль клиента</title>
     <script data-require="jquery@1.10.0" data-semver="1.10.0"
             src="https://code.jquery.com/jquery-1.10.0.min.js"></script>
 
@@ -22,7 +22,8 @@
             crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/users-styles.css">
+    <link rel="stylesheet" href="css/orders-styles.css">
+    <link rel="stylesheet" href="css/archive-styles.css">
     <link rel="stylesheet" href="css/client-profile-styles.css">
 </head>
 <body>
@@ -67,25 +68,58 @@
     </div>
 
     <div class="container">
-        <a class="col-md-1" href="courier-profile.html">
-            <div class="courier-picture">
+        <div class="col-md-3">
+            <div class="cafe-picture"><img src="img/cafe-picture.png"></div>
+            <div class="courier">
                 <img src="img/user.png">
+                <h4>Курьер</h4>
+                <span>Константин Константинопольский</span>
             </div>
+            <div class="description">
+                <h3 class="cafe-name">Ханума</h3>
+                <span class="dishes-type">Котлета по-киевски</span>
+                <span class="dishes-price">60₽</span>
+            </div>
+            <div class="">
+                <img src="img/like.png">
+                <span class="data">22.04.2018</span>
+            </div>
+        </div>
 
-            <div class="courier-name">
-                <span>Константин Константинопольский</span>
-                <img src="img/page-1.png">
-            </div>
-        </a>
-        <a class="col-md-1" href="courier-profile.html">
-            <div class="courier-picture">
+        <div class="col-md-3">
+            <div class="cafe-picture"><img src="img/cafe-picture.png"></div>
+            <div class="courier">
                 <img src="img/user.png">
-            </div>
-            <div class="courier-name">
+                <h4>Курьер</h4>
                 <span>Константин Константинопольский</span>
-                <img src="img/page-1.png">
             </div>
-        </a>
+            <div class="description">
+                <h3 class="cafe-name">В гостях у дяди Ашота</h3>
+                <span class="dishes-type">Картофельное пюре</span>
+                <span class="dishes-price">60₽</span>
+            </div>
+            <div>
+                <img src="img/like.png">
+                <span class="data">22.04.2018</span>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="cafe-picture"><img src="img/cafe-picture.png"></div>
+            <div class="courier">
+                <img src="img/user.png">
+                <h4>Курьер</h4>
+                <span>Константин Константинопольский</span>
+            </div>
+            <div class="description">
+                <h3 class="cafe-name">В гостях у дяди Ашота</h3>
+                <span class="dishes-type">Котлета по-киевски</span>
+                <span class="dishes-price">100₽</span>
+            </div>
+            <div>
+                <img src="img/like.png">
+                <span class="data">22.04.2018</span>
+            </div>
+        </div>
     </div>
 </section>
 </body>

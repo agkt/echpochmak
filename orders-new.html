@@ -36,7 +36,7 @@
     <div class="navigation">
         <ul>
             <li><a href="./orders-new.html">Заказы</a></li>
-            <li><a href="couriers.html">Курьеры</a></li>
+            <li><a href="couriers-free.html">Курьеры</a></li>
             <li><a href="./reports.html">Отчеты</a></li>
             <li><a href="./archive.html">Архив</a></li>
             <li><a href="./clients.html">Пользователи</a></li>
@@ -129,8 +129,12 @@
             </div>
             <div class="modal-body clearfix">
                 <div class="courier">
-                    <img src="img/user.png">
-                    <span>Ильнур Ядгаров</span>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                        <option>Назначить курьера</option>
+                        <option>Константин Константинопольский</option>
+                        <option>Ильнур Ядгаров</option>
+                        <option>Эраст Бориславский</option>
+                    </select>
                 </div>
                 <div class="order clearfix">
                     <div>
@@ -156,6 +160,7 @@
             <div class="modal-footer clearfix">
                 <img src="img/facebook-places.png">
                 <span>г.Казань, Кремлевская 25</span>
+                <button data-dismiss="modal">Сохранить</button>
             </div>
         </div>
     </div>

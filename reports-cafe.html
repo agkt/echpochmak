@@ -2,11 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Заблокированные курьеры</title>
+    <title>Меню</title>
     <script data-require="jquery@1.10.0" data-semver="1.10.0"
             src="https://code.jquery.com/jquery-1.10.0.min.js"></script>
-
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
@@ -22,8 +20,7 @@
             crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/users-styles.css">
-    <link rel="stylesheet" href="css/client-profile-styles.css">
+    <link rel="stylesheet" href="css/menu-styles.css">
 </head>
 <body>
 <section class="header">
@@ -48,45 +45,54 @@
     </div>
 </section>
 <section class="main">
-    <div class="user-history clearfix">
-        <a href="./clients.html" class="return"><img src="img/back.png"></a>
-        <img src="img/user.png" class="user-picture">
-        <span>Имя Фамилия</span>
-    </div>
     <div class="clearfix">
+        <div class="cafe-name clearfix">
+            <a href="./reports.html" class="return"><img src="img/back.png"></a>
+            <span>Ханума</span>
+        </div>
         <ul>
-            <li><a href="./client-history.html">История</a></li>
-            <li><a href="./client-likes.html">Лайки</a></li>
-            <li><a href="./client-dislikes.html">Дизлайки</a></li>
-            <li><a href="./couriers-blocked.html">Заблокированные курьеры</a></li>
+            <li><a href="#">День</a></li>
+            <li><a href="#">Неделя</a></li>
+            <li><a href="#">Месяц</a></li>
         </ul>
         <form name="search" class="search">
             <input type="submit" value="Искать" class="search-button">
             <label><input type="text" name="search" placeholder="Поиск..."></label>
         </form>
+
     </div>
 
-    <div class="container">
-        <a class="col-md-1" href="courier-profile.html">
-            <div class="courier-picture">
-                <img src="img/user.png">
+    <div class="container table">
+        <div class="row">
+            <div class="col-md-12 table-description">
+                <span>Название блюда</span>
+                <span>Количество заказов</span>
+                <span>Цена блюда</span>
+                <span class="all">Общая сумма</span>
             </div>
-
-            <div class="courier-name">
-                <span>Константин Константинопольский</span>
-                <img src="img/page-1.png">
+            <div class="col-md-12">
+                <span class="name">Гречка</span>
+                <span class="col">10</span>
+                <span class="price">100 Р</span>
+                <span>1000 Р</span>
             </div>
-        </a>
-        <a class="col-md-1" href="courier-profile.html">
-            <div class="courier-picture">
-                <img src="img/user.png">
+            <div class="col-md-12">
+                <span class="name">Гречка</span>
+                <span class="col">10</span>
+                <span class="price">100 Р</span>
+                <span>1000 Р</span>
             </div>
-            <div class="courier-name">
-                <span>Константин Константинопольский</span>
-                <img src="img/page-1.png">
+            <div class="col-md-12">
+                <span class="name">Гречка</span>
+                <span class="col">10</span>
+                <span class="price">100 Р</span>
+                <span>1000 Р</span>
             </div>
-        </a>
+        </div>
     </div>
 </section>
+
+
+
 </body>
 </html>

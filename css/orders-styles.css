@@ -314,3 +314,19 @@
     color: #dfdfdf;
 }
 
+.modal-footer button {
+    float: right;
+    outline: none;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #ff7901;
+    border: none;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+}
